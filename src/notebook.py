@@ -33,7 +33,6 @@ class Notebook:
 
         note = Note(code, title, text, importance)
         self.notes.append(note)
-
         return code
 
     def delete_note(self, code):
